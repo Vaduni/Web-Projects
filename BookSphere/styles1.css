@@ -1,0 +1,111 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold';
+}
+h2{
+    color: aliceblue;
+}
+p{
+    color: #2a2438;
+}
+.big-heading{
+        font-family: "Montserrat-Black";
+        font-size: 3.0rem;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+    .section-heading{
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    .container-fluid{
+        padding:  7% 15%;
+    }
+       /*setions*/
+    .colored-section{
+        background-color:#b39eb5;
+        color:#2a2438;
+    
+    }
+    .white-colored{
+        background-color: #564c6c9c;
+    }
+    .navbar {
+        padding-bottom: 1.5rem;
+    }
+    .navbar-brand{
+        font-family: "ubuntu";
+        font-size: 2.5rem;
+       
+    }
+    .nav-item{
+        padding: 0 18px;
+    }
+    .nav-link{
+        font-size: 1.2rem;
+        font-family:"montserrat" ;
+     
+    }
+    .login-button{
+        margin:5% 3% 5% 0;
+    }
+    #title{
+    
+        text-align: left;
+    }
+    #title .container-fluid{
+        padding: 3% 10% 5%;
+    }
+        /*title image*/
+    .title-image{
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    /*testimonials-section */
+    #testimonials{
+        background-color: #2a2438;
+    }
+    .testimonial-text{
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    .testimonials-image{
+        width:10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    .carousel-item{
+        height: 500px;
+    }
+    #bookCarousel {
+        min-height: 300px;
+    }
+    
+    #books{
+        padding: 100px;
+        
+    }
+    .book-image{
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .book-column{
+        padding: 3% 2%;
+    }
+     /*cta section*/
+     #cta{
+        background-color:#ff4ce7;
+     }
+     .social-icon{
+        margin: 20px 10px;
+     }
+     
+    
+    

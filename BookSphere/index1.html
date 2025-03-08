@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSphere</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles1.css">
+
+    <!-- Font Awesome (latest version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <section class="colored-section" id="title">
+
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg">
+                <a class="navbar-brand" href="#">BookSphere</a>
+
+                <!-- Button for toggling the navbar on small screens -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#books">books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="big-heading">“In the age of digital connection, the pursuit of knowledge knows no
+                        borders.”</h1>
+                    <button type="button" class="btn btn-dark btn-lg login-button">
+                        <i class="fa-solid fa-right-to-bracket"> </i> Login / Sign up
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-image" src="book.png" alt="book-mockup">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--books-->
+<!--books-->
+<section class="white-colored" id="books">
+    <h2 class="section-heading">"Endless Adventures Await in BookSphere"</h2>
+    <p>"BookSphere offers a perfect selection of books, making it easy to find your next read anytime, anywhere."</p>
+
+    <!-- Bootstrap 5 Carousel with automatic sliding -->
+    <div id="bookCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="book-column col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="feature-title">Motivational</h3>
+                            </div>
+                            <div class="card-body">
+                                <img class="book-image" src="motivation.jpeg" alt="Motivational Book">
+                                <p>"Great things never come from comfort zones."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-column col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="feature-title">Academics</h3>
+                            </div>
+                            <div class="card-body">
+                                <img class="book-image" src="academic.png" alt="Academic Book">
+                                <p>"The expert in anything was once a beginner."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-column col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="feature-title">Career development</h3>
+                            </div>
+                            <div class="card-body">
+                                <img class="book-image" src="career.webp" alt="Career Development Book">
+                                <p>"Believe you can and you're halfway there."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional carousel items can be added here -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="book-column col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="feature-title">Research</h3>
+                            </div>
+                            <div class="card-body">
+                                <img class="book-image" src="research.jpg" alt="Research Book">
+                                <p>"Research is to see what everybody else has seen, and to think what nobody else has thought."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-column col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="feature-title">Cultural Archives</h3>
+                            </div>
+                            <div class="card-body">
+                                <img class="book-image" src="culture.jpg" alt="Cultural Book">
+                                <p>"In every archive lies a story waiting to be told, a narrative that gives voice to cultures long forgotten or misunderstood."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-column col-lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="feature-title">Judicial Resources</h3>
+                            </div>
+                            <div class="card-body">
+                                <img class="book-image" src="Judiciary.jpg" alt="judiciary Book">
+                                <p>"The true measure of a justice system’s strength lies in the resources it devotes to ensuring equal access for all."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bookCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+    <section class="colored-section" id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">“The only thing you absolutely have to know is the location of the
+                        library.”</h2>
+                    <img class="testimonials-image" src="albert.jpg" alt="albert-profile">
+                    <em>Albert Einstein</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">“Reading is a passport to countless adventures.” </h2>
+                    <img class="testimonials-image" src="Mary_Pope_Osborne.jpg" alt="Mary_Pope_Osborne.jpg-profile">
+                    <em>Mary Pope Osborne</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">"Books are the best companions. They are the most patient and loving teachers." </h2>
+                    <img class="testimonials-image" src="nehru.jpeg" alt="Jawaharlal Nehru.jpg-profile">
+                    <em>Jawaharlal Nehru</em>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
